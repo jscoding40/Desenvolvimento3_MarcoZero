@@ -1,0 +1,51 @@
+/* RESET CSS */
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box; 
+    
+    }
+
+    body {
+      display: inside;
+      min-height: 6px;
+      flex-direction: row;
+      margin: 0;
+      padding: 2%;
+    }
+
+    header div {
+     margin: 0 auto;
+     padding: 1px;
+     width: 200;
+     height: 110;
+     justify-content: center;
+    }
+
+    header, main, footer {
+      background: #f1f1ed;
+      height: 50vh;
+    }
+    header, footer, article, nav {
+      padding:  3em 0;
+    }
+
+    nav {
+      margin-right: 2px;
+    }
+
+    main {
+      display: flex;
+      flex: 1;
+    }
+    main article {
+      flex: 1;
+    }
+    
+    img{
+      width:600px;
+      max-height: 300px;
+      align-items:stretch ;
+    }
+
+ 
