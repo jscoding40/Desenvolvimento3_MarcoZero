@@ -1,51 +1,106 @@
-/* RESET CSS */
-* {
-    margin: 0px;
-    padding: 0px;
-    box-sizing: border-box; 
+*{
+  margin: auto;
+  padding:0 ;
+  font-size: large;
+  color: #474948;
+  background: #f1f1ed;
+  box-sizing: border-box; 
+  
+  }
+
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    min-height: 5px;
+    flex-direction: column;
+    padding: 4%;
+    margin: 30px 30px 30px 20px;
+    border-style: dotted;
+    border-color: #08cfbf;
+  }
+
+  header div {
+   display: flex;
+   margin: 10px;
+   padding: 1px;
+   width: 250;
+   height: 115;
+   align-content: center;
+  }
+
+  header nav{
+    display: flex;
+    list-style: none;
+    color:#08cfbf;
+    flex-wrap: wrap;
+    align-content: center;
+    padding: 15px 100px ;
+    margin-top: 30px;
+    font-weight: 200;
+ 
+  }
+
+  ul{
+    list-style-type:none;
+    line-height: 2;
+    padding-left: 1px;
+  }
+  
+  a{
+    text-decoration:none;
+    color:#08cfbf;
+    font-weight: 700;
+  }
+
+  .menu a{
+    color: #08cfbf;
+    text-decoration:none;
+    font-weight: 40px;
+    font-size: 20px;
+    margin: auto;
+
+  }
+
+  .menu li{
+    display: inline-block;
+    line-height: 1,5;
+    margin: 0 59px;
     
-    }
+  }
 
-    body {
-      display: inside;
-      min-height: 6px;
-      flex-direction: row;
-      margin: 0;
-      padding: 2%;
-    }
+  header, footer, article {
+    padding:  2em 0;
+  }
 
-    header div {
-     margin: 0 auto;
-     padding: 1px;
-     width: 200;
-     height: 110;
-     justify-content: center;
-    }
+  
+  header article footer {
+    background: #f1f1ed;
+    height: 50vh;
+  }
 
-    header, main, footer {
-      background: #f1f1ed;
-      height: 50vh;
-    }
-    header, footer, article, nav {
-      padding:  3em 0;
-    }
-
-    nav {
-      margin-right: 2px;
-    }
-
-    main {
-      display: flex;
-      flex: 1;
-    }
-    main article {
-      flex: 1;
-    }
+  section #main {
+    display: flex;
+    flex: 1;
+    align-content: center;
+  }
+     
+  h1 {
+    line-height: 2px;
     
-    img{
-      width:600px;
-      max-height: 300px;
-      align-items:stretch ;
-    }
+  }
+
+  p {
+    font-size: 20px;
+    text-decoration:none;
+    align-content: center;
+  }
+  
+ 
+  img {
+    display: inline-flex;
+    width:400px;
+    max-height: 300px;
+    align-content: center;
+  }
 
  
